@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Remarkable Google Keep",
+  "version": "0.1.0",
+  "description": "MarkDown++ for Google Keep.",
+  "homepage_url": "https://github.com/sasindumendis/remarkable-googlekeep",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://keep.google.com/*"
+      ],
+      "css": [
+        "content-scripts/inject.css"
+      ],
+      "js": [
+        "lib/markdown-it.min.js",
+        "content-scripts/inject.js"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,636 @@
+div[contenteditable="false"]:not(.r4nke-YPqjbf) {
+	display: none;
+}
+
+div[contenteditable="true"]:not(.r4nke-YPqjbf) {
+	display: block;
+}
+
+div[contenteditable="true"]:not(.r4nke-YPqjbf) + div.remarkable {
+	display: none;
+}
+
+@font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+div.remarkable {
+	font-size: 14px;
+	line-height: 1.3;
+	min-height: 46px;
+	padding: 12px 15px 15px 15px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: rgba(0,0,0,0.8);
+	font-family: 'Roboto Slab','Times New Roman',serif;
+	outline: none;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+div.remarkable a {
+  background: transparent;
+}
+
+div.remarkable a:active,
+div.remarkable a:hover {
+  outline: 0;
+}
+
+div.remarkable strong {
+  font-weight: bold;
+}
+
+div.remarkable h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+div.remarkable img {
+  border: 0;
+}
+
+div.remarkable hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+div.remarkable pre {
+  overflow: auto;
+}
+
+div.remarkable code,
+div.remarkable kbd,
+div.remarkable pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+div.remarkable input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+div.remarkable html input[disabled] {
+  cursor: default;
+}
+
+div.remarkable input {
+  line-height: normal;
+}
+
+div.remarkable input[type="checkbox"] {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+div.remarkable table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+div.remarkable td,
+div.remarkable th {
+  padding: 0;
+}
+
+div.remarkable * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+div.remarkable input {
+  font: 13px/1.4 Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+div.remarkable a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+div.remarkable a:hover,
+div.remarkable a:focus,
+div.remarkable a:active {
+  text-decoration: underline;
+}
+
+div.remarkable hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+div.remarkable hr:before {
+  display: table;
+  content: "";
+}
+
+div.remarkable hr:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+div.remarkable h1,
+div.remarkable h2,
+div.remarkable h3,
+div.remarkable h4,
+div.remarkable h5,
+div.remarkable h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+div.remarkable h1 {
+  font-size: 30px;
+}
+
+div.remarkable h2 {
+  font-size: 21px;
+}
+
+div.remarkable h3 {
+  font-size: 16px;
+}
+
+div.remarkable h4 {
+  font-size: 14px;
+}
+
+div.remarkable h5 {
+  font-size: 12px;
+}
+
+div.remarkable h6 {
+  font-size: 11px;
+}
+
+div.remarkable blockquote {
+  margin: 0;
+}
+
+div.remarkable ul,
+div.remarkable ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div.remarkable ol ol,
+div.remarkable ul ol {
+  list-style-type: lower-roman;
+}
+
+div.remarkable ul ul ol,
+div.remarkable ul ol ol,
+div.remarkable ol ul ol,
+div.remarkable ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+div.remarkable dd {
+  margin-left: 0;
+}
+
+div.remarkable code {
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+div.remarkable pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+div.remarkable .octicon {
+  font: normal normal 16px octicons-anchor;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+div.remarkable .octicon-link:before {
+  content: '\f05c';
+}
+
+div.remarkable>*:first-child {
+  margin-top: 0 !important;
+}
+
+div.remarkable>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+div.remarkable .anchor {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  padding-right: 6px;
+  padding-left: 30px;
+  margin-left: -30px;
+}
+
+div.remarkable .anchor:focus {
+  outline: none;
+}
+
+div.remarkable h1,
+div.remarkable h2,
+div.remarkable h3,
+div.remarkable h4,
+div.remarkable h5,
+div.remarkable h6 {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+div.remarkable h1 .octicon-link,
+div.remarkable h2 .octicon-link,
+div.remarkable h3 .octicon-link,
+div.remarkable h4 .octicon-link,
+div.remarkable h5 .octicon-link,
+div.remarkable h6 .octicon-link {
+  display: none;
+  color: #000;
+  vertical-align: middle;
+}
+
+div.remarkable h1:hover .anchor,
+div.remarkable h2:hover .anchor,
+div.remarkable h3:hover .anchor,
+div.remarkable h4:hover .anchor,
+div.remarkable h5:hover .anchor,
+div.remarkable h6:hover .anchor {
+  padding-left: 8px;
+  margin-left: -30px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+div.remarkable h1:hover .anchor .octicon-link,
+div.remarkable h2:hover .anchor .octicon-link,
+div.remarkable h3:hover .anchor .octicon-link,
+div.remarkable h4:hover .anchor .octicon-link,
+div.remarkable h5:hover .anchor .octicon-link,
+div.remarkable h6:hover .anchor .octicon-link {
+  display: inline-block;
+}
+
+div.remarkable h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+div.remarkable h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+div.remarkable h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+div.remarkable h4 {
+  font-size: 1.25em;
+}
+
+div.remarkable h5 {
+  font-size: 1em;
+}
+
+div.remarkable h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+div.remarkable p,
+div.remarkable blockquote,
+div.remarkable ul,
+div.remarkable ol,
+div.remarkable dl,
+div.remarkable table,
+div.remarkable pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+div.remarkable hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: rgba(0,0,0,0.2);
+  border: 0 none;
+}
+
+div.remarkable ul,
+div.remarkable ol {
+  padding-left: 2em;
+}
+
+div.remarkable ul ul,
+div.remarkable ul ol,
+div.remarkable ol ol,
+div.remarkable ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div.remarkable li>p {
+  margin-top: 16px;
+}
+
+div.remarkable dl {
+  padding: 0;
+}
+
+div.remarkable dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+div.remarkable dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+div.remarkable blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid rgba(0,0,0,0.2);
+}
+
+div.remarkable blockquote>:first-child {
+  margin-top: 0;
+}
+
+div.remarkable blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+div.remarkable table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+div.remarkable table th {
+  font-weight: bold;
+}
+
+div.remarkable table th,
+div.remarkable table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+div.remarkable table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+div.remarkable table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+div.remarkable img {
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+div.remarkable code {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+div.remarkable code:before,
+div.remarkable code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+div.remarkable pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+div.remarkable .highlight {
+  margin-bottom: 16px;
+}
+
+div.remarkable .highlight pre,
+div.remarkable pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 3px;
+}
+
+div.remarkable .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+div.remarkable pre {
+  word-wrap: normal;
+}
+
+div.remarkable pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+div.remarkable pre code:before,
+div.remarkable pre code:after {
+  content: normal;
+}
+
+div.remarkable .pl-c {
+  color: #969896;
+}
+
+div.remarkable .pl-c1,
+div.remarkable .pl-mdh,
+div.remarkable .pl-mm,
+div.remarkable .pl-mp,
+div.remarkable .pl-mr,
+div.remarkable .pl-s1 .pl-v,
+div.remarkable .pl-s3,
+div.remarkable .pl-sc,
+div.remarkable .pl-sv {
+  color: #0086b3;
+}
+
+div.remarkable .pl-e,
+div.remarkable .pl-en {
+  color: #795da3;
+}
+
+div.remarkable .pl-s1 .pl-s2,
+div.remarkable .pl-smi,
+div.remarkable .pl-smp,
+div.remarkable .pl-stj,
+div.remarkable .pl-vo,
+div.remarkable .pl-vpf {
+  color: #333;
+}
+
+div.remarkable .pl-ent {
+  color: #63a35c;
+}
+
+div.remarkable .pl-k,
+div.remarkable .pl-s,
+div.remarkable .pl-st {
+  color: #a71d5d;
+}
+
+div.remarkable .pl-pds,
+div.remarkable .pl-s1,
+div.remarkable .pl-s1 .pl-pse .pl-s2,
+div.remarkable .pl-sr,
+div.remarkable .pl-sr .pl-cce,
+div.remarkable .pl-sr .pl-sra,
+div.remarkable .pl-sr .pl-sre,
+div.remarkable .pl-src,
+div.remarkable .pl-v {
+  color: #df5000;
+}
+
+div.remarkable .pl-id {
+  color: #b52a1d;
+}
+
+div.remarkable .pl-ii {
+  background-color: #b52a1d;
+  color: #f8f8f8;
+}
+
+div.remarkable .pl-sr .pl-cce {
+  color: #63a35c;
+  font-weight: bold;
+}
+
+div.remarkable .pl-ml {
+  color: #693a17;
+}
+
+div.remarkable .pl-mh,
+div.remarkable .pl-mh .pl-en,
+div.remarkable .pl-ms {
+  color: #1d3e81;
+  font-weight: bold;
+}
+
+div.remarkable .pl-mq {
+  color: #008080;
+}
+
+div.remarkable .pl-mi {
+  color: #333;
+  font-style: italic;
+}
+
+div.remarkable .pl-mb {
+  color: #333;
+  font-weight: bold;
+}
+
+div.remarkable .pl-md,
+div.remarkable .pl-mdhf {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+div.remarkable .pl-mdht,
+div.remarkable .pl-mi1 {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+div.remarkable .pl-mdr {
+  color: #795da3;
+  font-weight: bold;
+}
+
+div.remarkable .pl-mo {
+  color: #1d3e81;
+}
+
+div.remarkable kbd {
+  background-color: #e7e7e7;
+  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
+  background-image: linear-gradient(#fefefe, #e7e7e7);
+  background-repeat: repeat-x;
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  line-height: 10px;
+  color: #000;
+  border: 1px solid #cfcfcf;
+  border-radius: 2px;
+}
+
+div.remarkable .task-list-item {
+  list-style-type: none;
+}
+
+div.remarkable .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+div.remarkable .task-list-item input {
+  float: left;
+  margin: 0.3em 0 0.25em -1.6em;
+  vertical-align: middle;
+}
