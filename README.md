@@ -2,7 +2,7 @@
 
 # Remarkable Google Keep
 
-""[Chrome Extension] MarkDown++ for Google Keep""
+**[Chrome Extension] MarkDown++ for Google Keep**
 
 Enhance your experience on [keep.google.com](https//keep.google.com) by adding markdown support and more.
 
