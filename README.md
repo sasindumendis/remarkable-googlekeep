@@ -4,6 +4,9 @@
 
 Enhance your experience on [keep.google.com](https//keep.google.com) by adding markdown support and more.
 
+- [x] CommonMark Support
+- [x] Github Flavoured Markdown Support
+
 ## How to
 
 [Download](https://github.com/sasindumendis/remarkable-googlekeep/releases/latest) the latest `remarkable-googlekeep.crx`, drag and drop onto your Google Chrome browser an confirm the pop-up permission dialog.
