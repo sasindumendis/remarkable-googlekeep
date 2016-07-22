@@ -1,12 +1,12 @@
-div[contenteditable="false"]:not(.r4nke-YPqjbf) {
+div[contenteditable="false"].h1U9Be-YPqjbf {
 	display: none;
 }
 
-div[contenteditable="true"]:not(.r4nke-YPqjbf) {
+div[contenteditable="true"].h1U9Be-YPqjbf {
 	display: block;
 }
 
-div[contenteditable="true"]:not(.r4nke-YPqjbf) + div.remarkable {
+div[contenteditable="true"].h1U9Be-YPqjbf + div.remarkable {
 	display: none;
 }
 
