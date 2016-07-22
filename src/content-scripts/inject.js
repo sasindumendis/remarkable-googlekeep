@@ -6,7 +6,7 @@
         document.querySelector('.notes-container').removeEventListener('DOMSubtreeModified', render, false);
 
         var converter = window.markdownit();
-        var contentEditables = document.querySelectorAll('div[contenteditable="false"]:not(.r4nke-YPqjbf)');
+        var contentEditables = document.querySelectorAll('div[contenteditable="false"].h1U9Be-YPqjbf');
 
         for (var i = 0; i < contentEditables.length; i++) {        
             var output = converter.render(contentEditables[i].innerHTML.replace(/<br>/g, '\n'));
